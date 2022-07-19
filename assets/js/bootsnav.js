@@ -71,7 +71,7 @@
                 $postsList.html(ListHTML);
                 index.find("ul.nav").first().addClass("navbar-left");
                 
-                //Generate HTML for second list
+                //Generate HTML for second
                 createHTML(secondList);
                 //Create new list after original one
                 $postsList.after('<ul class="nav navbar-nav"></ul>').next().html(ListHTML);
